@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+#paintArea{
+    position: relative;
+    border: 8px solid #DBCBBB;
+    height: 100vh;
+    width: 100%;
+}
+.options{
+    height: 42vh;
+    background-color: #DBCBBB;
+    padding: 0px;
+    
+    
+}
+.tools-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+   
+}
+.tools-row h5{
+    margin-bottom: 10px;
+    color: azure;
+    font-weight: 400;
+    font-style: 18px;
+    letter-spacing: 0.5px;
+}
+.tools-row button{
+    padding: 10px 0;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-style: 18px;
+    color: #DBCBBB;
+    cursor: pointer;
+     margin-left: 200px;
+}
+.tools-row button:hover{
+   
+    background-color: #866255;
+ 
+    color: #fff;
+    
+}
+input[type="range"]{
+    height: 40px;
+}
+input[type="color"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 70px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+input[type="color"]::-webkit-color-swatch{
+    border-radius: 8px;
+   
+}
+input[type="color"]::moz-color-swatch{
+    border-radius: 8px;
+   
+   
+
+}
